@@ -1,0 +1,94 @@
+* {
+    position: relative;
+}
+
+.cap {
+    width: 700px;
+    height: 1050px;
+    background: #f007;
+    margin: 0 auto;
+}
+
+body {
+    margin-top: 40px;
+}
+
+.cabell {
+    width: 670px;
+    height: 920px;
+    background: green;
+    margin: 0 auto;
+    border-radius: 25% 25% 0 0;
+}
+
+.serrell1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 0 0 100% 0;
+    background: red;
+    top: 87px;
+    left: 300px;
+    float: left;
+    position: absolute;
+}
+
+.serrell2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 0 0 0 100%;
+    background: red;
+    top: 87px;
+    right: 260px;
+    float: right;
+    position: absolute;
+}
+
+.serrell3 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    top: 80px;
+    left: 120px;
+    position: absolute;
+    border-radius: 100% 20%;
+}
+
+.forma1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100% 0%;
+    background: #fedfce;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    transform: rotate(0.5deg);
+}
+
+.forma2 {
+    width: 240px;
+    height: 700px;
+    border-radius: 100% 10%;
+    background-color: salmon;
+    position: absolute;
+    left: -108px;
+    top: 92px;
+    transform: rotate(-10deg);
+}
+
+.forma3 {
+    width: 240px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    top: 187px;
+}
+
+.cara {
+    width: 565px;
+    height: 680px;
+    background: #fedfce;
+    border-radius: 100% / 80% 80% 140% 140%;
+    margin: 0 auto;
+    bottom: 825px;
+}
